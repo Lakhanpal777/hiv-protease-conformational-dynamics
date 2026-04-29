@@ -23,3 +23,4 @@ To move beyond static structural representations and examine protein behavior as
 
 ## Relevance
 This work reflects a mechanistic approach to understanding protein behavior through dynamics, which is essential for identifying binding-relevant conformations and informing structure-based ligand design.
+Provides a basis for identifying binding-relevant conformations by linking state populations to accessibility of the active site.
