@@ -1,26 +1,37 @@
-## HIV Protease Conformational Dynamics Analysis
-This project explores how HIV protease samples its conformational landscape and how these states influence access to binding-competent configurations.
+# HIV Protease Conformational Dynamics Analysis
+
+## Overview
+
+This project investigates how HIV protease samples and redistributes conformational states across its dynamic landscape, with emphasis on how localized motions regulate functionally relevant structural accessibility.
 
 ## Objective
-To move beyond static structural representations and examine protein behavior as a dynamic ensemble, focusing on how conformational states regulate ligand accessibility.
+
+To examine protein behavior as an ensemble of interconverting conformational states rather than a single static structure, and to understand how perturbations reshape conformational sampling, state populations, and gating dynamics.
 
 ## Methods
-- Molecular Dynamics simulations (multiple replicas)
-- Principal Component Analysis (PCA) for dominant motions
-- Free Energy Landscape (FEL) construction
-- Conformational state identification and population analysis
+
+* Multi-replica Molecular Dynamics (MD) simulations
+* Principal Component Analysis (PCA) for characterization of collective motions
+* Free Energy Landscape (FEL) construction and basin identification
+* RMSF-based localization of dynamically active regions
+* Conformational state extraction and structural assignment
+* State population and flap-distance distribution analysis
+* Comparative projection of mutant and wild-type trajectories onto shared conformational spaces
 
 ## Key Insights
-- Identified distinct conformational states (open, semi-open, closed)
-- Observed heterogeneous sampling across simulation replicas
-- Found that conformational variability is localized in the flap region, governing access to the binding site
-- Demonstrated that protein function is influenced by state populations, not just structural existence
+
+* Identified distinct metastable conformational ensembles corresponding to open, semi-open, and closed states
+* Observed heterogeneous conformational sampling across independent simulation replicas
+* Localized dominant conformational variability to the substrate-gating flap region while the catalytic scaffold remained comparatively stable
+* Showed that perturbation-associated effects emerged primarily through redistribution of conformational populations rather than generation of entirely new structural states
+* Connected collective motions identified through PCA with structurally interpretable thermodynamic basins and functionally relevant gating behavior
 
 ## Repository Structure
-- `scripts/` → analysis scripts (PCA, FEL, RMSF, etc.)
-- `figures/` → generated plots and visualizations
-- `data/` → processed trajectory-derived data
+
+* `scripts/` → trajectory analysis and visualization workflows (PCA, FEL, RMSF, population analysis, etc.)
+* `figures/` → generated structural and dynamical analysis plots
+* `data/` → processed trajectory-derived datasets and extracted conformational information
 
 ## Relevance
-This work reflects a mechanistic approach to understanding protein behavior through dynamics, which is essential for identifying binding-relevant conformations and informing structure-based ligand design.
-Provides a basis for identifying binding-relevant conformations by linking state populations to accessibility of the active site.
+
+This project focuses on mechanistic interpretation of biomolecular dynamics through ensemble-based analysis and collective-motion characterization. The workflow emphasizes how localized fluctuations, conformational accessibility, and redistribution among metastable states contribute to larger-scale functional behavior in structurally dynamic protein systems.
