@@ -102,3 +102,11 @@ hiv-protease-conformational-dynamics/
     │   ├── wt_vs_i50v/
     │   └── v32i_diagnostics/
     └── tables/
+
+Explore the Analysis
+Background — biological motivation and the ensemble-level research question
+Methods — simulation design, trajectory processing, WT-defined PCA, FEL analysis, basin extraction, and descriptor mapping
+Biophysical Descriptors — rationale for the inter-flap distance and its role as a physically interpretable descriptor
+Limitations & Next Steps — sampling limitations, V32I diagnostics, enhanced sampling, and future descriptor development
+WT vs I50V Results — key supporting figures
+V32I Diagnostics — diagnostic figures for the ongoing V32I investigation
