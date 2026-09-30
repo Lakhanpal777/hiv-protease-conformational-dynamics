@@ -73,7 +73,6 @@ Together, the PCA, free-energy landscape, basin-population, flap-distance, and R
 
 ## Repository Structure
 
-```text
 hiv-protease-conformational-dynamics/
 │
 ├── README.md
@@ -85,23 +84,38 @@ hiv-protease-conformational-dynamics/
 │   ├── descriptors.md
 │   └── limitations_and_next_steps.md
 │
-├── data/
-│   ├── wt/
-│   ├── i50v/
-│   └── v32i/
+├── WT/
+│   └── [existing/key WT material]
 │
-├── scripts/
-│   ├── simulation_setup/
-│   ├── trajectory_processing/
-│   ├── pca_projection/
-│   ├── fel_basin_analysis/
-│   └── descriptor_analysis/
+├── I50V/
+│   ├── data/
+│   │   ├── trajectory_processing/
+│   │   ├── pca/
+│   │   ├── fel_basin_analysis/
+│   │   └── flap_dynamics/
+│   │
+│   ├── scripts/
+│   │   ├── trajectory_processing/
+│   │   ├── pca/
+│   │   ├── fel_basin_analysis/
+│   │   └── flap_dynamics/
+│   │
+│   └── figures/
+│       ├── trajectory_processing/
+│       ├── pca/
+│       ├── fel_basin_analysis/
+│       ├── flap_dynamics/
+│       └── final_comparison/
 │
-└── results/
-    ├── figures/
-    │   ├── wt_vs_i50v/
-    │   └── v32i_diagnostics/
-    └── tables/
+├── V32I/
+│   ├── data/
+│   ├── scripts/
+│   └── figures/
+│
+└── comparison/
+    ├── data/
+    ├── scripts/
+    └── figures/
 
 Explore the Analysis
 Background — biological motivation and the ensemble-level research question
