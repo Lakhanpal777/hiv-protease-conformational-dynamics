@@ -84,37 +84,23 @@ hiv-protease-conformational-dynamics/
 │   ├── descriptors.md
 │   └── limitations_and_next_steps.md
 │
-├── WT/
+├── data/
+│   ├── wt/
+│   ├── i50v/
+│   └── v32i/
 │
-├── I50V/
-│   ├── data/
-│   │   ├── trajectory_processing/
-│   │   ├── pca/
-│   │   ├── fel_basin_analysis/
-│   │   └── flap_dynamics/
-│   │
-│   ├── scripts/
-│   │   ├── trajectory_processing/
-│   │   ├── pca/
-│   │   ├── fel_basin_analysis/
-│   │   └── flap_dynamics/
-│   │
-│   └── figures/
-│       ├── trajectory_processing/
-│       ├── pca/
-│       ├── fel_basin_analysis/
-│       ├── flap_dynamics/
-│       └── final_comparison/
+├── scripts/
+│   ├── simulation_setup/
+│   ├── trajectory_processing/
+│   ├── pca_projection/
+│   ├── fel_basin_analysis/
+│   └── descriptor_analysis/
 │
-├── V32I/
-│   ├── data/
-│   ├── scripts/
-│   └── figures/
-│
-└── comparison/
-    ├── data/
-    ├── scripts/
-    └── figures/
+└── results/
+    ├── figures/
+    │   ├── wt_vs_i50v/
+    │   └── v32i_diagnostics/
+    └── tables/
 
 Explore the Analysis
 Background — biological motivation and the ensemble-level research question
