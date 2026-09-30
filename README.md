@@ -85,7 +85,6 @@ hiv-protease-conformational-dynamics/
 │   └── limitations_and_next_steps.md
 │
 ├── WT/
-│   └── [existing/key WT material]
 │
 ├── I50V/
 │   ├── data/
